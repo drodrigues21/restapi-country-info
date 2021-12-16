@@ -1,0 +1,26 @@
+
+.countriesList-container {
+    padding-bottom: 80px;
+  }
+  
+.countriesCard-container {
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+}
+
+@media screen and (min-width: 700px) {
+
+    .countriesCard-container {
+      grid-template-columns: 264px 264px;
+    }
+}
+  
+@media screen and (min-width: 1300px) {
+  .countriesCard-container {
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: 75px;
+  }
+}
+
+  
